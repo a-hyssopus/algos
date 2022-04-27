@@ -1,4 +1,4 @@
-const repeatingSymbols = (string) => {
+const repeatingSymbols = string => {
     let symbols = new Map();
 
     for (let symbol of string) {
